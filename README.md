@@ -1,6 +1,9 @@
 🐟 Detection of Illegal Fishing Activities Using AIS Data
+
+
 📌 Project Overview
 Illegal, unreported, and unregulated (IUU) fishing poses a major threat to marine biodiversity, global economies, and food security. This project presents an AI-driven solution to identify and monitor illegal fishing activities using Automatic Identification System (AIS) data. By leveraging the temporal and spatial properties of vessel movement data, we apply advanced deep learning techniques to forecast and detect suspicious fishing behavior.
+
 
 🎯 Objectives
 Predict the likelihood and intensity of fishing activity using vessel AIS data.
@@ -10,6 +13,7 @@ Build accurate and scalable deep learning models using LSTM and RNN architecture
 Enable automated surveillance to support maritime regulatory enforcement.
 
 Visualize fishing activity trends both temporally and geospatially.
+
 
 🛠️ Features
 AIS Data Processing: Cleansing, feature engineering (e.g., distance from shore/port), timestamp extraction, and normalization.
@@ -25,6 +29,8 @@ Visualization Tools:
 Hourly fishing activity trends.
 
 Interactive geospatial maps of illegal fishing hotspots and proximity to shorelines.
+
+
 
 📂 Dataset
 The dataset consists of over 166,000 entries, including:
@@ -43,6 +49,8 @@ Fishing Activity Indicator (is_fishing: 1, 0, or -1)
 
 Source: Global Fishing Watch (GFW)
 
+
+
 🧠 Models Used
 Recurrent Neural Network (RNN): Captures short-term temporal patterns.
 
@@ -57,12 +65,16 @@ MSE (Mean Squared Error): 0.0397
 
 R² Score: 0.8328
 
+
+
 🌍 Visualizations
 Figure 1: Proposed model architecture.
 
 Figure 2: Hourly trends in fishing activity.
 
 Figure 3 & 4: Mapping illegal fishing zones with proximity indicators.
+
+
 
 🧩 Future Scope
 Real-time integration of live AIS streams for dynamic detection.
@@ -71,10 +83,14 @@ Expansion to include external factors (weather, vessel type, economic data).
 
 Collaborations with international maritime authorities for deployment.
 
+
+
 📜 Citation
 If you use this project or dataset in your research, please cite:
 
 Kavya M, Jokheeswar B, Yashwanth S, Mohanam K. Detection of Illegal Fishing Activities Using AIS Data, 2024.
+
+
 
 🧪 Tools & Libraries
 Python, TensorFlow/Keras
@@ -82,6 +98,8 @@ Python, TensorFlow/Keras
 Pandas, NumPy, Scikit-learn
 
 Matplotlib, Seaborn, Folium
+
+
 
 🙌 Acknowledgements
 Global Fishing Watch for AIS data
